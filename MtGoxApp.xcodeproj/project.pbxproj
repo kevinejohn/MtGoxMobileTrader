@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B21A6021488AE1C00FD5231 /* CoreAPIData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B21A6011488AE1C00FD5231 /* CoreAPIData.m */; };
+		2B21A6061488B20700FD5231 /* LoginScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B21A6041488B20700FD5231 /* LoginScreen.m */; };
+		2B21A6071488B20700FD5231 /* LoginScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B21A6051488B20700FD5231 /* LoginScreen.xib */; };
+		2BA2C5B7148B3619006BB07F /* APIDataProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA2C5B6148B3619006BB07F /* APIDataProcessor.m */; };
+		2BA79C24148739DC00AA6E5C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA79C23148739DC00AA6E5C /* UIKit.framework */; };
+		2BA79C26148739DC00AA6E5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA79C25148739DC00AA6E5C /* Foundation.framework */; };
+		2BA79C28148739DC00AA6E5C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA79C27148739DC00AA6E5C /* CoreGraphics.framework */; };
+		2BA79C2E148739DD00AA6E5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BA79C2C148739DD00AA6E5C /* InfoPlist.strings */; };
+		2BA79C30148739DD00AA6E5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C2F148739DD00AA6E5C /* main.m */; };
+		2BA79C34148739DD00AA6E5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C33148739DD00AA6E5C /* AppDelegate.m */; };
+		2BA79C3D148739F600AA6E5C /* DetailsScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C3B148739F600AA6E5C /* DetailsScreen.m */; };
+		2BA79C3E148739F600AA6E5C /* DetailsScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BA79C3C148739F600AA6E5C /* DetailsScreen.xib */; };
+		2BA79C4D14873BE500AA6E5C /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C4C14873BE500AA6E5C /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BA79C5214873D5600AA6E5C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA79C5114873D5600AA6E5C /* QuartzCore.framework */; };
+		2BA79C561487424300AA6E5C /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA79C541487424300AA6E5C /* Background.png */; };
+		2BA79C571487424300AA6E5C /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA79C551487424300AA6E5C /* Background@2x.png */; };
+		2BA79C5A1487448D00AA6E5C /* BlueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA79C581487448D00AA6E5C /* BlueButton.png */; };
+		2BA79C5B1487448D00AA6E5C /* BlueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA79C591487448D00AA6E5C /* BlueButton@2x.png */; };
+		2BA79C5D148747A700AA6E5C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA79C5C148747A700AA6E5C /* Icon.png */; };
+		2BA79C5F148747A900AA6E5C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BA79C5E148747A900AA6E5C /* Icon@2x.png */; };
+		2BA79C631487547B00AA6E5C /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C621487547B00AA6E5C /* Base64.m */; };
+		2BA79C7C1488A3B200AA6E5C /* MTGONXController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C791488A3B200AA6E5C /* MTGONXController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BA79C7D1488A3B200AA6E5C /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C7B1488A3B200AA6E5C /* Order.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BA79C811488A3D300AA6E5C /* BuyAndSell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C7F1488A3D200AA6E5C /* BuyAndSell.m */; };
+		2BA79C821488A3D300AA6E5C /* BuyAndSell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BA79C801488A3D300AA6E5C /* BuyAndSell.xib */; };
+		2BA79CA11488A66B00AA6E5C /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C891488A66B00AA6E5C /* NSObject+SBJson.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BA79CA21488A66B00AA6E5C /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C8C1488A66B00AA6E5C /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BA79CA31488A66B00AA6E5C /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C8E1488A66B00AA6E5C /* SBJsonStreamParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BA79CA41488A66B00AA6E5C /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C901488A66B00AA6E5C /* SBJsonStreamParserAccumulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BA79CA51488A66B00AA6E5C /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C921488A66B00AA6E5C /* SBJsonStreamParserAdapter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BA79CA61488A66B00AA6E5C /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C941488A66B00AA6E5C /* SBJsonStreamParserState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BA79CA71488A66B00AA6E5C /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C961488A66B00AA6E5C /* SBJsonStreamWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BA79CA81488A66B00AA6E5C /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C981488A66B00AA6E5C /* SBJsonStreamWriterAccumulator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BA79CA91488A66B00AA6E5C /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C9A1488A66B00AA6E5C /* SBJsonStreamWriterState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BA79CAA1488A66B00AA6E5C /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C9C1488A66B00AA6E5C /* SBJsonTokeniser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BA79CAB1488A66B00AA6E5C /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79C9E1488A66B00AA6E5C /* SBJsonUTF8Stream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BA79CAC1488A66B00AA6E5C /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA79CA01488A66B00AA6E5C /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2BBDC079148AC94800B2A514 /* MtGoxOpenOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDC078148AC94800B2A514 /* MtGoxOpenOrder.m */; };
+		2BBDC088148AE23A00B2A514 /* MtGoxBuySellOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDC087148AE23A00B2A514 /* MtGoxBuySellOrder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B21A6001488AE1C00FD5231 /* CoreAPIData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreAPIData.h; path = MtGoxObjects/CoreAPIData.h; sourceTree = "<group>"; };
+		2B21A6011488AE1C00FD5231 /* CoreAPIData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreAPIData.m; path = MtGoxObjects/CoreAPIData.m; sourceTree = "<group>"; };
+		2B21A6031488B20700FD5231 /* LoginScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginScreen.h; sourceTree = "<group>"; };
+		2B21A6041488B20700FD5231 /* LoginScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginScreen.m; sourceTree = "<group>"; };
+		2B21A6051488B20700FD5231 /* LoginScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginScreen.xib; sourceTree = "<group>"; };
+		2BA2C5B5148B3619006BB07F /* APIDataProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIDataProcessor.h; path = MtGoxObjects/APIDataProcessor.h; sourceTree = "<group>"; };
+		2BA2C5B6148B3619006BB07F /* APIDataProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIDataProcessor.m; path = MtGoxObjects/APIDataProcessor.m; sourceTree = "<group>"; };
+		2BA79C1F148739DC00AA6E5C /* MtGoxApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MtGoxApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA79C23148739DC00AA6E5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2BA79C25148739DC00AA6E5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BA79C27148739DC00AA6E5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BA79C2B148739DD00AA6E5C /* MtGoxApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MtGoxApp-Info.plist"; sourceTree = "<group>"; };
+		2BA79C2D148739DD00AA6E5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BA79C2F148739DD00AA6E5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BA79C31148739DD00AA6E5C /* MtGoxApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MtGoxApp-Prefix.pch"; sourceTree = "<group>"; };
+		2BA79C32148739DD00AA6E5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BA79C33148739DD00AA6E5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BA79C3A148739F600AA6E5C /* DetailsScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; path = DetailsScreen.h; sourceTree = "<group>"; };
+		2BA79C3B148739F600AA6E5C /* DetailsScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsScreen.m; sourceTree = "<group>"; };
+		2BA79C3C148739F600AA6E5C /* DetailsScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsScreen.xib; sourceTree = "<group>"; };
+		2BA79C4B14873BE500AA6E5C /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		2BA79C4C14873BE500AA6E5C /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		2BA79C5114873D5600AA6E5C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2BA79C541487424300AA6E5C /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background.png; path = Images/Background.png; sourceTree = "<group>"; };
+		2BA79C551487424300AA6E5C /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Background@2x.png"; path = "Images/Background@2x.png"; sourceTree = "<group>"; };
+		2BA79C581487448D00AA6E5C /* BlueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BlueButton.png; path = Images/BlueButton.png; sourceTree = "<group>"; };
+		2BA79C591487448D00AA6E5C /* BlueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BlueButton@2x.png"; path = "Images/BlueButton@2x.png"; sourceTree = "<group>"; };
+		2BA79C5C148747A700AA6E5C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2BA79C5E148747A900AA6E5C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		2BA79C611487547B00AA6E5C /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		2BA79C621487547B00AA6E5C /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		2BA79C781488A3B200AA6E5C /* MTGONXController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTGONXController.h; sourceTree = "<group>"; };
+		2BA79C791488A3B200AA6E5C /* MTGONXController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTGONXController.m; sourceTree = "<group>"; };
+		2BA79C7A1488A3B200AA6E5C /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		2BA79C7B1488A3B200AA6E5C /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		2BA79C7E1488A3D200AA6E5C /* BuyAndSell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyAndSell.h; sourceTree = "<group>"; };
+		2BA79C7F1488A3D200AA6E5C /* BuyAndSell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyAndSell.m; sourceTree = "<group>"; };
+		2BA79C801488A3D300AA6E5C /* BuyAndSell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuyAndSell.xib; sourceTree = "<group>"; };
+		2BA79C831488A5AE00AA6E5C /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		2BA79C871488A66B00AA6E5C /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		2BA79C881488A66B00AA6E5C /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		2BA79C891488A66B00AA6E5C /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		2BA79C8A1488A66B00AA6E5C /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		2BA79C8B1488A66B00AA6E5C /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		2BA79C8C1488A66B00AA6E5C /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		2BA79C8D1488A66B00AA6E5C /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		2BA79C8E1488A66B00AA6E5C /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		2BA79C8F1488A66B00AA6E5C /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		2BA79C901488A66B00AA6E5C /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		2BA79C911488A66B00AA6E5C /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		2BA79C921488A66B00AA6E5C /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		2BA79C931488A66B00AA6E5C /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		2BA79C941488A66B00AA6E5C /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		2BA79C951488A66B00AA6E5C /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		2BA79C961488A66B00AA6E5C /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		2BA79C971488A66B00AA6E5C /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		2BA79C981488A66B00AA6E5C /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		2BA79C991488A66B00AA6E5C /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		2BA79C9A1488A66B00AA6E5C /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		2BA79C9B1488A66B00AA6E5C /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		2BA79C9C1488A66B00AA6E5C /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		2BA79C9D1488A66B00AA6E5C /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		2BA79C9E1488A66B00AA6E5C /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		2BA79C9F1488A66B00AA6E5C /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		2BA79CA01488A66B00AA6E5C /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		2BBDC077148AC94800B2A514 /* MtGoxOpenOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MtGoxOpenOrder.h; path = MtGoxObjects/MtGoxOpenOrder.h; sourceTree = "<group>"; };
+		2BBDC078148AC94800B2A514 /* MtGoxOpenOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MtGoxOpenOrder.m; path = MtGoxObjects/MtGoxOpenOrder.m; sourceTree = "<group>"; };
+		2BBDC086148AE23A00B2A514 /* MtGoxBuySellOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MtGoxBuySellOrder.h; path = MtGoxObjects/MtGoxBuySellOrder.h; sourceTree = "<group>"; };
+		2BBDC087148AE23A00B2A514 /* MtGoxBuySellOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MtGoxBuySellOrder.m; path = MtGoxObjects/MtGoxBuySellOrder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BA79C1C148739DC00AA6E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA79C24148739DC00AA6E5C /* UIKit.framework in Frameworks */,
+				2BA79C26148739DC00AA6E5C /* Foundation.framework in Frameworks */,
+				2BA79C28148739DC00AA6E5C /* CoreGraphics.framework in Frameworks */,
+				2BA79C5214873D5600AA6E5C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B21A5FE1488ADE900FD5231 /* MtGoxObjects */ = {
+			isa = PBXGroup;
+			children = (
+				2B21A6001488AE1C00FD5231 /* CoreAPIData.h */,
+				2B21A6011488AE1C00FD5231 /* CoreAPIData.m */,
+				2BBDC077148AC94800B2A514 /* MtGoxOpenOrder.h */,
+				2BBDC078148AC94800B2A514 /* MtGoxOpenOrder.m */,
+				2BBDC086148AE23A00B2A514 /* MtGoxBuySellOrder.h */,
+				2BBDC087148AE23A00B2A514 /* MtGoxBuySellOrder.m */,
+				2BA2C5B5148B3619006BB07F /* APIDataProcessor.h */,
+				2BA2C5B6148B3619006BB07F /* APIDataProcessor.m */,
+			);
+			name = MtGoxObjects;
+			sourceTree = "<group>";
+		};
+		2BA79C14148739DC00AA6E5C = {
+			isa = PBXGroup;
+			children = (
+				2BA79C5E148747A900AA6E5C /* Icon@2x.png */,
+				2BA79C5C148747A700AA6E5C /* Icon.png */,
+				2BA79C29148739DC00AA6E5C /* MtGoxApp */,
+				2BA79C22148739DC00AA6E5C /* Frameworks */,
+				2BA79C20148739DC00AA6E5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BA79C20148739DC00AA6E5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BA79C1F148739DC00AA6E5C /* MtGoxApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BA79C22148739DC00AA6E5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BA79C5114873D5600AA6E5C /* QuartzCore.framework */,
+				2BA79C23148739DC00AA6E5C /* UIKit.framework */,
+				2BA79C25148739DC00AA6E5C /* Foundation.framework */,
+				2BA79C27148739DC00AA6E5C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BA79C29148739DC00AA6E5C /* MtGoxApp */ = {
+			isa = PBXGroup;
+			children = (
+				2B21A5FE1488ADE900FD5231 /* MtGoxObjects */,
+				2BA79C53148740FE00AA6E5C /* Images */,
+				2BA79C4314873AF300AA6E5C /* Library */,
+				2BA79C32148739DD00AA6E5C /* AppDelegate.h */,
+				2BA79C33148739DD00AA6E5C /* AppDelegate.m */,
+				2BA79C2A148739DC00AA6E5C /* Supporting Files */,
+				2BA79C3A148739F600AA6E5C /* DetailsScreen.h */,
+				2BA79C3B148739F600AA6E5C /* DetailsScreen.m */,
+				2BA79C3C148739F600AA6E5C /* DetailsScreen.xib */,
+				2BA79C7E1488A3D200AA6E5C /* BuyAndSell.h */,
+				2BA79C7F1488A3D200AA6E5C /* BuyAndSell.m */,
+				2BA79C801488A3D300AA6E5C /* BuyAndSell.xib */,
+				2B21A6031488B20700FD5231 /* LoginScreen.h */,
+				2B21A6041488B20700FD5231 /* LoginScreen.m */,
+				2B21A6051488B20700FD5231 /* LoginScreen.xib */,
+			);
+			path = MtGoxApp;
+			sourceTree = "<group>";
+		};
+		2BA79C2A148739DC00AA6E5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BA79C2B148739DD00AA6E5C /* MtGoxApp-Info.plist */,
+				2BA79C2C148739DD00AA6E5C /* InfoPlist.strings */,
+				2BA79C2F148739DD00AA6E5C /* main.m */,
+				2BA79C31148739DD00AA6E5C /* MtGoxApp-Prefix.pch */,
+				2BA79C831488A5AE00AA6E5C /* Settings.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BA79C4314873AF300AA6E5C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				2BA79C861488A66B00AA6E5C /* json */,
+				2BA79C771488A3B200AA6E5C /* MtGox4Mac */,
+				2BA79C601487547B00AA6E5C /* Base64 */,
+				2BA79C4A14873BE500AA6E5C /* JSONKit */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		2BA79C4A14873BE500AA6E5C /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				2BA79C4B14873BE500AA6E5C /* JSONKit.h */,
+				2BA79C4C14873BE500AA6E5C /* JSONKit.m */,
+			);
+			name = JSONKit;
+			path = Library/JSONKit;
+			sourceTree = "<group>";
+		};
+		2BA79C53148740FE00AA6E5C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2BA79C581487448D00AA6E5C /* BlueButton.png */,
+				2BA79C591487448D00AA6E5C /* BlueButton@2x.png */,
+				2BA79C541487424300AA6E5C /* Background.png */,
+				2BA79C551487424300AA6E5C /* Background@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		2BA79C601487547B00AA6E5C /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				2BA79C611487547B00AA6E5C /* Base64.h */,
+				2BA79C621487547B00AA6E5C /* Base64.m */,
+			);
+			name = Base64;
+			path = Library/Base64;
+			sourceTree = "<group>";
+		};
+		2BA79C771488A3B200AA6E5C /* MtGox4Mac */ = {
+			isa = PBXGroup;
+			children = (
+				2BA79C781488A3B200AA6E5C /* MTGONXController.h */,
+				2BA79C791488A3B200AA6E5C /* MTGONXController.m */,
+				2BA79C7A1488A3B200AA6E5C /* Order.h */,
+				2BA79C7B1488A3B200AA6E5C /* Order.m */,
+			);
+			name = MtGox4Mac;
+			path = Library/MtGox4Mac;
+			sourceTree = "<group>";
+		};
+		2BA79C861488A66B00AA6E5C /* json */ = {
+			isa = PBXGroup;
+			children = (
+				2BA79C871488A66B00AA6E5C /* JSON.h */,
+				2BA79C881488A66B00AA6E5C /* NSObject+SBJson.h */,
+				2BA79C891488A66B00AA6E5C /* NSObject+SBJson.m */,
+				2BA79C8A1488A66B00AA6E5C /* SBJson.h */,
+				2BA79C8B1488A66B00AA6E5C /* SBJsonParser.h */,
+				2BA79C8C1488A66B00AA6E5C /* SBJsonParser.m */,
+				2BA79C8D1488A66B00AA6E5C /* SBJsonStreamParser.h */,
+				2BA79C8E1488A66B00AA6E5C /* SBJsonStreamParser.m */,
+				2BA79C8F1488A66B00AA6E5C /* SBJsonStreamParserAccumulator.h */,
+				2BA79C901488A66B00AA6E5C /* SBJsonStreamParserAccumulator.m */,
+				2BA79C911488A66B00AA6E5C /* SBJsonStreamParserAdapter.h */,
+				2BA79C921488A66B00AA6E5C /* SBJsonStreamParserAdapter.m */,
+				2BA79C931488A66B00AA6E5C /* SBJsonStreamParserState.h */,
+				2BA79C941488A66B00AA6E5C /* SBJsonStreamParserState.m */,
+				2BA79C951488A66B00AA6E5C /* SBJsonStreamWriter.h */,
+				2BA79C961488A66B00AA6E5C /* SBJsonStreamWriter.m */,
+				2BA79C971488A66B00AA6E5C /* SBJsonStreamWriterAccumulator.h */,
+				2BA79C981488A66B00AA6E5C /* SBJsonStreamWriterAccumulator.m */,
+				2BA79C991488A66B00AA6E5C /* SBJsonStreamWriterState.h */,
+				2BA79C9A1488A66B00AA6E5C /* SBJsonStreamWriterState.m */,
+				2BA79C9B1488A66B00AA6E5C /* SBJsonTokeniser.h */,
+				2BA79C9C1488A66B00AA6E5C /* SBJsonTokeniser.m */,
+				2BA79C9D1488A66B00AA6E5C /* SBJsonUTF8Stream.h */,
+				2BA79C9E1488A66B00AA6E5C /* SBJsonUTF8Stream.m */,
+				2BA79C9F1488A66B00AA6E5C /* SBJsonWriter.h */,
+				2BA79CA01488A66B00AA6E5C /* SBJsonWriter.m */,
+			);
+			name = json;
+			path = Library/json;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BA79C1E148739DC00AA6E5C /* MtGoxApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA79C37148739DD00AA6E5C /* Build configuration list for PBXNativeTarget "MtGoxApp" */;
+			buildPhases = (
+				2BA79C1B148739DC00AA6E5C /* Sources */,
+				2BA79C1C148739DC00AA6E5C /* Frameworks */,
+				2BA79C1D148739DC00AA6E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MtGoxApp;
+			productName = MtGoxApp;
+			productReference = 2BA79C1F148739DC00AA6E5C /* MtGoxApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BA79C16148739DC00AA6E5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = 2BA79C19148739DC00AA6E5C /* Build configuration list for PBXProject "MtGoxApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BA79C14148739DC00AA6E5C;
+			productRefGroup = 2BA79C20148739DC00AA6E5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BA79C1E148739DC00AA6E5C /* MtGoxApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BA79C1D148739DC00AA6E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA79C2E148739DD00AA6E5C /* InfoPlist.strings in Resources */,
+				2BA79C3E148739F600AA6E5C /* DetailsScreen.xib in Resources */,
+				2BA79C561487424300AA6E5C /* Background.png in Resources */,
+				2BA79C571487424300AA6E5C /* Background@2x.png in Resources */,
+				2BA79C5A1487448D00AA6E5C /* BlueButton.png in Resources */,
+				2BA79C5B1487448D00AA6E5C /* BlueButton@2x.png in Resources */,
+				2BA79C5D148747A700AA6E5C /* Icon.png in Resources */,
+				2BA79C5F148747A900AA6E5C /* Icon@2x.png in Resources */,
+				2BA79C821488A3D300AA6E5C /* BuyAndSell.xib in Resources */,
+				2B21A6071488B20700FD5231 /* LoginScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BA79C1B148739DC00AA6E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BA79C30148739DD00AA6E5C /* main.m in Sources */,
+				2BA79C34148739DD00AA6E5C /* AppDelegate.m in Sources */,
+				2BA79C3D148739F600AA6E5C /* DetailsScreen.m in Sources */,
+				2BA79C4D14873BE500AA6E5C /* JSONKit.m in Sources */,
+				2BA79C631487547B00AA6E5C /* Base64.m in Sources */,
+				2BA79C7C1488A3B200AA6E5C /* MTGONXController.m in Sources */,
+				2BA79C7D1488A3B200AA6E5C /* Order.m in Sources */,
+				2BA79C811488A3D300AA6E5C /* BuyAndSell.m in Sources */,
+				2BA79CA11488A66B00AA6E5C /* NSObject+SBJson.m in Sources */,
+				2BA79CA21488A66B00AA6E5C /* SBJsonParser.m in Sources */,
+				2BA79CA31488A66B00AA6E5C /* SBJsonStreamParser.m in Sources */,
+				2BA79CA41488A66B00AA6E5C /* SBJsonStreamParserAccumulator.m in Sources */,
+				2BA79CA51488A66B00AA6E5C /* SBJsonStreamParserAdapter.m in Sources */,
+				2BA79CA61488A66B00AA6E5C /* SBJsonStreamParserState.m in Sources */,
+				2BA79CA71488A66B00AA6E5C /* SBJsonStreamWriter.m in Sources */,
+				2BA79CA81488A66B00AA6E5C /* SBJsonStreamWriterAccumulator.m in Sources */,
+				2BA79CA91488A66B00AA6E5C /* SBJsonStreamWriterState.m in Sources */,
+				2BA79CAA1488A66B00AA6E5C /* SBJsonTokeniser.m in Sources */,
+				2BA79CAB1488A66B00AA6E5C /* SBJsonUTF8Stream.m in Sources */,
+				2BA79CAC1488A66B00AA6E5C /* SBJsonWriter.m in Sources */,
+				2B21A6021488AE1C00FD5231 /* CoreAPIData.m in Sources */,
+				2B21A6061488B20700FD5231 /* LoginScreen.m in Sources */,
+				2BBDC079148AC94800B2A514 /* MtGoxOpenOrder.m in Sources */,
+				2BBDC088148AE23A00B2A514 /* MtGoxBuySellOrder.m in Sources */,
+				2BA2C5B7148B3619006BB07F /* APIDataProcessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BA79C2C148739DD00AA6E5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BA79C2D148739DD00AA6E5C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BA79C35148739DD00AA6E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BA79C36148739DD00AA6E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BA79C38148739DD00AA6E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MtGoxApp/MtGoxApp-Prefix.pch";
+				INFOPLIST_FILE = "MtGoxApp/MtGoxApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BA79C39148739DD00AA6E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MtGoxApp/MtGoxApp-Prefix.pch";
+				INFOPLIST_FILE = "MtGoxApp/MtGoxApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BA79C19148739DC00AA6E5C /* Build configuration list for PBXProject "MtGoxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA79C35148739DD00AA6E5C /* Debug */,
+				2BA79C36148739DD00AA6E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BA79C37148739DD00AA6E5C /* Build configuration list for PBXNativeTarget "MtGoxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BA79C38148739DD00AA6E5C /* Debug */,
+				2BA79C39148739DD00AA6E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BA79C16148739DC00AA6E5C /* Project object */;
+}

@@ -1,0 +1,12 @@
+Author: Kevin Johnson
+Date:   02/19/2012
+
+Note: The MTGox4Mac library is using the v1 api from MtGox.com. This api will be depreciated by MtGox on Thu 01 Mar 2012 12:00:00 AM GMT. After that date the current version of this app will no longer work.
+
+iOS app for trading bitcoins through MtGox.com
+
+Thanks to soupdiver for the MTGox4Mac library
+https://github.com/soupdiver/MTGox4Mac.git
+
+
+

@@ -66,7 +66,7 @@
 		2BA79C31148739DD00AA6E5C /* MtGoxApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MtGoxApp-Prefix.pch"; sourceTree = "<group>"; };
 		2BA79C32148739DD00AA6E5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2BA79C33148739DD00AA6E5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2BA79C3A148739F600AA6E5C /* DetailsScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; path = DetailsScreen.h; sourceTree = "<group>"; };
+		2BA79C3A148739F600AA6E5C /* DetailsScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsScreen.h; sourceTree = "<group>"; };
 		2BA79C3B148739F600AA6E5C /* DetailsScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsScreen.m; sourceTree = "<group>"; };
 		2BA79C3C148739F600AA6E5C /* DetailsScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsScreen.xib; sourceTree = "<group>"; };
 		2BA79C4B14873BE500AA6E5C /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
@@ -464,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MtGoxApp/MtGoxApp-Prefix.pch";
 				INFOPLIST_FILE = "MtGoxApp/MtGoxApp-Info.plist";
@@ -477,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MtGoxApp/MtGoxApp-Prefix.pch";
 				INFOPLIST_FILE = "MtGoxApp/MtGoxApp-Info.plist";
